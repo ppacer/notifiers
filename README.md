@@ -21,7 +21,13 @@ go get github.com/ppacer/notifiers/discord
 
 ```
 
-
 ### Telegram
 
-**TODO**
+Telegram notifier sends notifications onto Telegram chat.
+
+Installation:
+
+```
+go get github.com/ppacer/notifiers/telegram
+
+```

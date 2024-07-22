@@ -13,8 +13,8 @@ import (
 	"github.com/ppacer/core/notify"
 )
 
-// Notifier implements ppacer/core/notify.Send interface for sending
-// notification onto Discord channel.
+// Notifier implements ppacer/core/notify.Sender interface for sending
+// notifications onto Discord channel.
 type Notifier struct {
 	token     string
 	channelId string
